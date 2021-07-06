@@ -1,0 +1,65 @@
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'VT323', monospace;
+*/
+
+html {
+    --white: #FAFAFA;
+    --red: #E83F5B;
+    --light-blue: #E0ECFF;
+    --background: #FBFCFF;
+    --overlay: #040911;
+    --icons-details: #A5B0C1;
+    --grey-dark: #4D5E77;
+    --grey-blue: #A1B2CD;
+    --grey-medium: #D3D9E2;
+    --grey-light: #E5EAF1;
+    --menu: #19596a;
+    --menu-hover: #2c9ebb;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.title-page {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: var(--overlay);
+    font-size: 2rem;
+}
+
+.subtitle-page {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    color: var(--overlay);
+    font-size: 1rem;
+}
+
+.title-section {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: var(--overlay);
+    font-size: 1.5rem;
+}
+
+.subtitle-section {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    color: var(--overlay);
+    font-size: 0.8rem;
+}
+
+.text-resume {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: var(--overlay);
+    font-size: 1rem;
+}
+
+.card-text {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    color: var(--overlay);
+}

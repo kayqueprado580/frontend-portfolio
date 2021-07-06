@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kayque Prado</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./public/img/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./public/img/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./public/img/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./public/img/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./public/img/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./public/img/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./public/img/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./public/img/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./public/img/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./public/img/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./public/img/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./public/img/icon/favicon-16x16.png">
+    <link rel="manifest" href="./public/img/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- bootstrap5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./public/css/global.css">
+    <link rel="stylesheet" href="./public/css/index.css">
+
+    <!-- lib icons fontawesome -->
+    <link href="./public/lib/fontawesome5.15.3/css/all.css" rel="stylesheet">
+    <script defer src="./public/lib/fontawesome5.15.3/js/all.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Mono:ital,wght@0,300;0,400;1,100&family=VT323&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent disabled">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home"><i
+                                    class="fas fa-home size-icon"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="bg-header-img">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light mt-2 float-start" data-bs-toggle="modal" data-bs-target="#modalUser">
+                <i class="far fa-user"></i></button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalUser" tabindex="-1" aria-labelledby="accessUser" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title title-section" id="accessUser">Bem vindo</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <div class="mb-3">
+                                <div class="container">
+                                    <label for="user" class="form-label subtitle-page float-start">Usuario: </label>
+                                    <input type="name" class="form-control" id="user">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="container">
+                                    <label for="password" class="form-label subtitle-page float-start">Senha: </label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-success card-text">Acessar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="px-4 py-2 my-2 text-center">
+                <img src="./public/img/logo.png" alt="logo" width="300" height="300" class="img-logo">
+                <h1 class="h1 title-page">Desenvolvedor Fullstack</h1>
+                <small class="subtitle-page">going to next level...</small>
+            </div>
+            <nav class="navbar navbar-expand-sm fixed-header">
+                <div class="container justify-content-center">
+                    <div class="navbar-collapse">
+                        <ul class="nav navbar-nav navbar mx-auto menu-index-wrapper">
+                            <li class="nav-item menu-index-item">
+                                <a class="nav-link" href="#about">Sobre</a>
+                            </li>
+                            <li class="nav-item menu-index-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item menu-index-item">
+                                <a class="nav-link" href="#projects">Projetos</a>
+                            </li>
+                            <li class="nav-item menu-index-item">
+                                <a class="nav-link" href="#contact">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="mt-5 mb-5">
+        <div class="container">
+            <div class="col-md-12 disabled-about">
+                <img src="./public/img/about.png" class="rounded float-start about-img" alt="foto perfil">
+            </div>
+            <div class="col-md-12">
+                <div class="row pt-5">
+                    <h2 class="h2 title-section">Ola</h2>
+                    <p class="subtitle-section">Sou kayque, desenvolvedor hà mais de 2 anos...</p>
+                </div>
+                <div class="row pb-5 text-resume">
+                    <small>Atuando na carreira de tecnologia hà mais de 5 anos desde o desenvolvimento da relação com o cliente até ao projeto como um todo</small>
+                    <p><small>Capacitado a lidar desde suporte e sustentações em sistema legados até aprender e ser desafiado em algo novo para ser aplicado.</small>
+                </div>
+                <hr class="pb-1 hr-about">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="skills" class="mt-5">
+        <div class="container">
+
+            <div class="row text-center mb-2">
+                <h2 class="title-section">Conhecimentos</h2>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div class="p-2 bd-highlight m-3 card-item">
+                    <div class="card card-text">
+                        <div class="text-center">
+                            <i class="fab fa-js-square fa-5x m-5"></i>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 bd-highlight m-3 card-item">
+                    <div class="card card-text">
+                        <div class="text-center">
+                            <i class="fab fa-angular fa-5x m-5"></i>
+                            <p>Angular</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 bd-highlight m-3 card-item">
+                    <div class="card card-text">
+                        <div class="text-center">
+                            <i class="fab fa-node fa-5x m-5"></i>
+                            <p>Nodejs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div class="p-2 bd-highlight m-3 card-item card-item">
+                    <div class="card card-text">
+                        <div class="text-center">
+                            <i class="fab fa-php fa-5x m-5"></i>
+                            <p>PHP</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 bd-highlight m-3 card-item">
+                    <div class="card card-text">
+                        <div class="text-center">
+                            <i class="fab fa-python fa-5x m-5"></i>
+                            <p>Python</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 bd-highlight m-3 card-item">
+                    <div class="card card-text">
+                        <div class="text-center">
+                            <i class="fas fa-database fa-5x m-5"></i>
+                            <p>DB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div class="p-2 bd-highlight m-3 card-item">
+                    <div class="card card-text">
+                        <div class="text-center">
+                            <i class="fab fa-html5 fa-5x m-5"></i>
+                            <p>HTML</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 bd-highlight m-3 card-item">
+                    <div class="card card-text">
+                        <div class="text-center">
+                            <i class="fab fa-css3-alt fa-5x m-5"></i>
+                            <p>CSS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 bd-highlight m-3 card-item">
+                    <div class="card card-text">
+                        <div class="text-center">
+                            <i class="fab fa-bootstrap fa-5x m-5"></i>
+                            <p>Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="pb-1">
+        </div>
+    </section>
+
+    <section id="projects" class="mt-5 mb-5">
+        <div class="container justify-content-center">
+            <div class="row text-center mb-5">
+                <h2 class="title-section">Projetos</h2>
+            </div>
+            <div id="carouselProjects" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="d-flex justify-content-center">
+                            <img src="./public/img/projects/meals.png" class="d-block w-75 rounded" alt="Projeto Comidas">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="title-section">Meals</h2>
+                            <p class="subtitle-carousel">Feito para aperfeioçamento do front-end através do angular material</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="d-flex justify-content-center">
+                            <img src="./public/img/projects/rocket.q.png" class="d-block w-75 rounded" alt="Projeto Rocket.Q">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Rocket.Q</h2>
+                            <p class="subtitle-carousel">Sistema de salas e perguntas</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <img src="./public/img/projects/finasys.png" class="d-block w-75 rounded" alt="Projeto Finasys">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="title-section">Finasys</h2>
+                            <p class="subtitle-carousel">Sistema para organização das suas finanças</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section id="contact" class="mt-5 bg-contact">
+        <div class="container justify-content-center bg-links contact">
+            <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="p-2 bd-highlight">
+                    <i class="fab fa-linkedin-in"></i>
+                    <a href="https://www.linkedin.com/in/kayque-p-584669116/" target="_blank">Kayque Prado</a>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="p-2 bd-highlight">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/kayqueprado580" target="_blank">Github </a>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="p-2 bd-highlight">
+                    <i class="fas fa-envelope"></i> kayqueprado2013@gmail.com
+                </div>
+            </div>
+
+            <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="p-2 bd-highlight">
+                    <i class="fas fa-mobile-alt"></i> +55 (11) 9 9311-8855
+                </div>
+            </div>
+
+            <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="p-2 bd-highlight">
+                    <i class="fas fa-globe-americas"></i> São Paulo
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <small>© Copyright 2021 - Kayque Prado</small>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./public/scripts/index.js"></script>
+
+</html>

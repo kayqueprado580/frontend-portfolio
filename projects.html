@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kayque Prado</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./public/img/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./public/img/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./public/img/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./public/img/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./public/img/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./public/img/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./public/img/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./public/img/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./public/img/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./public/img/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./public/img/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./public/img/icon/favicon-16x16.png">
+    <link rel="manifest" href="./public/img/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- bootstrap5.0.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./public/css/global.css">
+    <link rel="stylesheet" href="./public/css/index.css">
+
+    <!-- lib icons fontawesome -->
+    <link href="./public/lib/fontawesome5.15.3/css/all.css" rel="stylesheet">
+    <script defer src="./public/lib/fontawesome5.15.3/js/all.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Mono:ital,wght@0,300;0,400;1,100&family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <div class="alert alert-danger">Error</div> -->
+
+    <div class="container">
+
+        <h2 class="text-center h2">Projetos</h2>
+        <hr class="mb-2">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <a href="#"><button class="btn btn-outline-success">Novo Projeto</button></a>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-body">
+                <h4>Projeto teste 1</h4>
+                <p>Descrição: teste2</p>
+                <p>URL: É ISSO</p>
+                <div class="row">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <a href="#"><button class="btn btn-outline-info btn-sm btn-sm me-md-2">Editar</button></a>
+                        <form action="" method="POST">
+                            <input type="hidden" name="id" value="{{_id}}">
+                            <button class="btn btn-outline-danger btn-sm">Deletar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-2">
+            <h4>Nenhuma Postagem disponível</h4>
+        </div>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
